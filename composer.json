@@ -1,0 +1,21 @@
+{
+    "name": "tucker-eric/cake-client",
+    "description": "PHP Client For Cake Marketing Api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Tucker",
+            "email": "tucker.ericm@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cake\\": "src/"
+        }
+    }
+}
